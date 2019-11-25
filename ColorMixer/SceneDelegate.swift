@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  ColorMix
+//  ColorMixer
 //
 //  Created by Artyom Gurbovich on 10/30/19.
 //  Copyright © 2019 Artyom Gurbovich. All rights reserved.

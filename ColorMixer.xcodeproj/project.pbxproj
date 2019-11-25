@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9AF41DA82369E1470095D4C4 /* ColorMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF41DA82369E1470095D4C4 /* ColorMixerer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMixerer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF41DAB2369E1470095D4C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AF41DAD2369E1470095D4C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9AF41DAF2369E1470095D4C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		9AF41D9F2369E1470095D4C4 = {
 			isa = PBXGroup;
 			children = (
-				9AF41DAA2369E1470095D4C4 /* ColorMix */,
+				9AF41DAA2369E1470095D4C4 /* ColorMixer */,
 				9AF41DA92369E1470095D4C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		9AF41DA92369E1470095D4C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AF41DA82369E1470095D4C4 /* ColorMix.app */,
+				9AF41DA82369E1470095D4C4 /* ColorMixerer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9AF41DAA2369E1470095D4C4 /* ColorMix */ = {
+		9AF41DAA2369E1470095D4C4 /* ColorMixer */ = {
 			isa = PBXGroup;
 			children = (
 				9AF41DAB2369E1470095D4C4 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				9AF41DB62369E1480095D4C4 /* LaunchScreen.storyboard */,
 				9AF41DB92369E1480095D4C4 /* Info.plist */,
 			);
-			path = ColorMix;
+			path = ColorMixer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9AF41DA72369E1470095D4C4 /* ColorMix */ = {
+		9AF41DA72369E1470095D4C4 /* ColorMixer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AF41DBC2369E1480095D4C4 /* Build configuration list for PBXNativeTarget "ColorMix" */;
+			buildConfigurationList = 9AF41DBC2369E1480095D4C4 /* Build configuration list for PBXNativeTarget "ColorMixer" */;
 			buildPhases = (
 				9AF41DA42369E1470095D4C4 /* Sources */,
 				9AF41DA52369E1470095D4C4 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ColorMix;
+			name = ColorMixer;
 			productName = ColorMix;
-			productReference = 9AF41DA82369E1470095D4C4 /* ColorMix.app */;
+			productReference = 9AF41DA82369E1470095D4C4 /* ColorMixerer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9AF41DA32369E1470095D4C4 /* Build configuration list for PBXProject "ColorMix" */;
+			buildConfigurationList = 9AF41DA32369E1470095D4C4 /* Build configuration list for PBXProject "ColorMixer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9AF41DA72369E1470095D4C4 /* ColorMix */,
+				9AF41DA72369E1470095D4C4 /* ColorMixer */,
 			);
 		};
 /* End PBXProject section */
@@ -285,14 +285,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SZ442ZP995;
-				INFOPLIST_FILE = ColorMix/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ColorMixer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Artyom-Gurbovich.ColorMix";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColorMixerer;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,14 +303,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SZ442ZP995;
-				INFOPLIST_FILE = ColorMix/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ColorMixer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Artyom-Gurbovich.ColorMix";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ColorMixerer;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9AF41DA32369E1470095D4C4 /* Build configuration list for PBXProject "ColorMix" */ = {
+		9AF41DA32369E1470095D4C4 /* Build configuration list for PBXProject "ColorMixer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AF41DBA2369E1480095D4C4 /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AF41DBC2369E1480095D4C4 /* Build configuration list for PBXNativeTarget "ColorMix" */ = {
+		9AF41DBC2369E1480095D4C4 /* Build configuration list for PBXNativeTarget "ColorMixer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AF41DBD2369E1480095D4C4 /* Debug */,
