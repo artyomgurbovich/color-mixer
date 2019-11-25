@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         blueLabel.text = String(Int(blue * 255.0))
         let color = UIColor(red: red, green: green, blue: blue, alpha: 1)
         colorView.backgroundColor = color
-        hexCodeLabel.text = "Hex code: \(color.toHex()!)"
+        hexCodeLabel.text = "Hex code: #\(color.toHex()!)"
     }
     
     func updateControls() {
